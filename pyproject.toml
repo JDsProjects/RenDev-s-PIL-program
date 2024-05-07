@@ -5,8 +5,8 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-discord = "^1.0.1"
+python = ">=3.8"
+discord-py = {version = ">=2.3.2", extras=["voice", "speed"]}
 
 [tool.poetry.dev-dependencies]
 
